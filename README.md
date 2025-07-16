@@ -63,3 +63,22 @@ See `RESEARCH.md` for detailed architecture and design notes.
 ## License
 
 MIT (or specify your preferred license)
+
+## System Robustness & Features
+
+- **Logging:** All major actions, events, and errors are logged to a ring buffer (RAM) and can be optionally printed to serial. This helps with debugging and diagnostics both during development and in the field.
+- **User-Facing Error Messages:** When errors occur (e.g., settings load/save, display redraw, UI handler), a user-friendly error message is shown. Currently, this prints to the console, but is designed to be shown on the device display in the future.
+- **Settings Persistence:**
+  - Settings are loaded at boot and saved periodically (every 5 seconds by default) to preserve user preferences and state.
+  - On-demand saves are supported: any part of the code can request an immediate save (e.g., after a key remap or preference change).
+  - All settings operations are robustly error-handled and logged.
+- **Robust Error Handling:**
+  - The main loop and all critical operations are wrapped in try/except blocks.
+  - Errors are logged and shown to the user, but do not crash the system.
+
+## Developer Notes
+
+- To log an event or error, use the `Logger` instance from the context (`ctx['logger']`).
+- To show a user-facing error, use `show_error(ctx, "message")` from anywhere in the code.
+- To trigger an on-demand settings save, call `ctx['settings'].request_save()`.
+- All persistent settings are managed via the `Settings` class and are automatically loaded/saved.
