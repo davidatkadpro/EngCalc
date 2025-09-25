@@ -1,0 +1,379 @@
+[
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "310UC158",
+    "dimensions": {
+      "d_mm": 327,
+      "bf_mm": 311,
+      "tf_mm": 25.0,
+      "tw_mm": 15.7,
+      "r_mm": 16.5
+    },
+    "properties": {
+      "mass_kg_per_m": 158,
+      "area_mm2": 20100,
+      "Ix_mm4": 388000000.0,
+      "Iy_mm4": 125000000.0,
+      "Zx_mm3": 2370000,
+      "Zy_mm3": 807000,
+      "rx_mm": 139,
+      "ry_mm": 78.9,
+      "Sx_mm3": 2680000,
+      "Sy_mm3": 1230000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "310UC137",
+    "dimensions": {
+      "d_mm": 321,
+      "bf_mm": 309,
+      "tf_mm": 21.7,
+      "tw_mm": 13.8,
+      "r_mm": 16.5
+    },
+    "properties": {
+      "mass_kg_per_m": 137,
+      "area_mm2": 17500,
+      "Ix_mm4": 329000000.0,
+      "Iy_mm4": 107000000.0,
+      "Zx_mm3": 2050000,
+      "Zy_mm3": 691000,
+      "rx_mm": 137,
+      "ry_mm": 78.2,
+      "Sx_mm3": 2300000,
+      "Sy_mm3": 1050000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "310UC118",
+    "dimensions": {
+      "d_mm": 315,
+      "bf_mm": 307,
+      "tf_mm": 18.7,
+      "tw_mm": 11.9,
+      "r_mm": 16.5
+    },
+    "properties": {
+      "mass_kg_per_m": 118,
+      "area_mm2": 15000,
+      "Ix_mm4": 277000000.0,
+      "Iy_mm4": 90200000.0,
+      "Zx_mm3": 1760000,
+      "Zy_mm3": 588000,
+      "rx_mm": 136,
+      "ry_mm": 77.5,
+      "Sx_mm3": 1960000,
+      "Sy_mm3": 893000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "310UC96.8",
+    "dimensions": {
+      "d_mm": 308,
+      "bf_mm": 305,
+      "tf_mm": 15.4,
+      "tw_mm": 9.9,
+      "r_mm": 16.5
+    },
+    "properties": {
+      "mass_kg_per_m": 96.8,
+      "area_mm2": 12400,
+      "Ix_mm4": 223000000.0,
+      "Iy_mm4": 72900000.0,
+      "Zx_mm3": 1450000,
+      "Zy_mm3": 478000,
+      "rx_mm": 134,
+      "ry_mm": 76.7,
+      "Sx_mm3": 1600000,
+      "Sy_mm3": 725000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "250UC89.5",
+    "dimensions": {
+      "d_mm": 260,
+      "bf_mm": 256,
+      "tf_mm": 17.3,
+      "tw_mm": 10.5,
+      "r_mm": 14.0
+    },
+    "properties": {
+      "mass_kg_per_m": 89.5,
+      "area_mm2": 11400,
+      "Ix_mm4": 143000000.0,
+      "Iy_mm4": 48400000.0,
+      "Zx_mm3": 1100000,
+      "Zy_mm3": 378000,
+      "rx_mm": 112,
+      "ry_mm": 65.2,
+      "Sx_mm3": 1230000,
+      "Sy_mm3": 575000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "250UC72.9",
+    "dimensions": {
+      "d_mm": 254,
+      "bf_mm": 254,
+      "tf_mm": 14.2,
+      "tw_mm": 8.6,
+      "r_mm": 14.0
+    },
+    "properties": {
+      "mass_kg_per_m": 72.9,
+      "area_mm2": 9320,
+      "Ix_mm4": 114000000.0,
+      "Iy_mm4": 38800000.0,
+      "Zx_mm3": 897000,
+      "Zy_mm3": 306000,
+      "rx_mm": 111,
+      "ry_mm": 64.5,
+      "Sx_mm3": 992000,
+      "Sy_mm3": 463000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "200UC59.5",
+    "dimensions": {
+      "d_mm": 210,
+      "bf_mm": 205,
+      "tf_mm": 14.2,
+      "tw_mm": 9.3,
+      "r_mm": 11.4
+    },
+    "properties": {
+      "mass_kg_per_m": 59.5,
+      "area_mm2": 7620,
+      "Ix_mm4": 61300000.0,
+      "Iy_mm4": 20400000.0,
+      "Zx_mm3": 584000,
+      "Zy_mm3": 199000,
+      "rx_mm": 89.7,
+      "ry_mm": 51.7,
+      "Sx_mm3": 656000,
+      "Sy_mm3": 303000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "200UC52.2",
+    "dimensions": {
+      "d_mm": 206,
+      "bf_mm": 204,
+      "tf_mm": 12.5,
+      "tw_mm": 8.0,
+      "r_mm": 11.4
+    },
+    "properties": {
+      "mass_kg_per_m": 52.2,
+      "area_mm2": 6660,
+      "Ix_mm4": 52800000.0,
+      "Iy_mm4": 17700000.0,
+      "Zx_mm3": 512000,
+      "Zy_mm3": 174000,
+      "rx_mm": 89.1,
+      "ry_mm": 51.5,
+      "Sx_mm3": 570000,
+      "Sy_mm3": 264000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "200UC46.2",
+    "dimensions": {
+      "d_mm": 203,
+      "bf_mm": 203,
+      "tf_mm": 11.0,
+      "tw_mm": 7.3,
+      "r_mm": 11.4
+    },
+    "properties": {
+      "mass_kg_per_m": 46.2,
+      "area_mm2": 5900,
+      "Ix_mm4": 45900000.0,
+      "Iy_mm4": 15300000.0,
+      "Zx_mm3": 451000,
+      "Zy_mm3": 151000,
+      "rx_mm": 88.2,
+      "ry_mm": 51.0,
+      "Sx_mm3": 500000,
+      "Sy_mm3": 230000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "150UC37.2",
+    "dimensions": {
+      "d_mm": 162,
+      "bf_mm": 154,
+      "tf_mm": 11.5,
+      "tw_mm": 8.1,
+      "r_mm": 8.9
+    },
+    "properties": {
+      "mass_kg_per_m": 37.2,
+      "area_mm2": 4730,
+      "Ix_mm4": 22200000.0,
+      "Iy_mm4": 7010000.0,
+      "Zx_mm3": 274000,
+      "Zy_mm3": 91000,
+      "rx_mm": 68.4,
+      "ry_mm": 38.5,
+      "Sx_mm3": 310000,
+      "Sy_mm3": 139000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "150UC30.0",
+    "dimensions": {
+      "d_mm": 158,
+      "bf_mm": 153,
+      "tf_mm": 9.4,
+      "tw_mm": 6.6,
+      "r_mm": 8.9
+    },
+    "properties": {
+      "mass_kg_per_m": 30.0,
+      "area_mm2": 3860,
+      "Ix_mm4": 17600000.0,
+      "Iy_mm4": 5620000.0,
+      "Zx_mm3": 223000,
+      "Zy_mm3": 73400.0,
+      "rx_mm": 67.5,
+      "ry_mm": 38.1,
+      "Sx_mm3": 250000,
+      "Sy_mm3": 112000
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "150UC23.4",
+    "dimensions": {
+      "d_mm": 152,
+      "bf_mm": 152,
+      "tf_mm": 6.8,
+      "tw_mm": 6.1,
+      "r_mm": 8.9
+    },
+    "properties": {
+      "mass_kg_per_m": 23.4,
+      "area_mm2": 2980,
+      "Ix_mm4": 12600000.0,
+      "Iy_mm4": 3980000.0,
+      "Zx_mm3": 166000,
+      "Zy_mm3": 52400.0,
+      "rx_mm": 65.1,
+      "ry_mm": 36.6,
+      "Sx_mm3": 184000,
+      "Sy_mm3": 80200.0
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  },
+  {
+    "source": "Australian Steel Standards",
+    "region": "AU",
+    "material": "steel",
+    "type": "UC",
+    "designation": "100UC14.8",
+    "dimensions": {
+      "d_mm": 97,
+      "bf_mm": 99,
+      "tf_mm": 7.0,
+      "tw_mm": 5.0,
+      "r_mm": 10.0
+    },
+    "properties": {
+      "mass_kg_per_m": 14.8,
+      "area_mm2": 1890,
+      "Ix_mm4": 3180000.0,
+      "Iy_mm4": 1140000.0,
+      "Zx_mm3": 65600.0,
+      "Zy_mm3": 22900.0,
+      "rx_mm": 41.1,
+      "ry_mm": 24.5,
+      "Sx_mm3": 74400.0,
+      "Sy_mm3": 35200.0
+    },
+    "raw_data": {
+      "extracted_at": "2025-09-25"
+    }
+  }
+]

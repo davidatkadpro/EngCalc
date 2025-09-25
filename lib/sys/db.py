@@ -84,7 +84,20 @@ class BTreeDB:
         except OSError:
             f = open(self.path, 'w+b')
         self._f = f
-        self._db = btree.open(f, pagesize=self.pagesize, cache_size=self.cache_size, minkeypage=self.minkeypage)
+        # Some MicroPython builds don't accept keyword args for btree.open.
+        # Try with keywords first, then positional, then simplest form.
+        try:
+            self._db = btree.open(
+                f,
+                pagesize=self.pagesize,
+                cache_size=self.cache_size,
+                minkeypage=self.minkeypage,
+            )
+        except TypeError:
+            try:
+                self._db = btree.open(f, self.pagesize, self.cache_size, self.minkeypage)
+            except TypeError:
+                self._db = btree.open(f)
         return self
 
     def close(self):
@@ -166,11 +179,11 @@ class BTreeDB:
         if tag == cls._T_STR:
             return body.decode('utf-8')
         if tag == cls._T_DICT:
-            return json.loads(body)
+            return json.loads(body.decode('utf-8'))
         if tag == cls._T_LIST:
-            return json.loads(body)
+            return json.loads(body.decode('utf-8'))
         if tag == cls._T_TUPLE:
-            return tuple(json.loads(body))
+            return tuple(json.loads(body.decode('utf-8')))
         raise ValueError("Unknown type tag: {}".format(tag))
 
     def _assert_open(self):
